@@ -1,14 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
+
+.boto {
+  width:130px;
+  height: 130px;
+  border-radius: 50%;
+    cursor: pointer;
+  -webkit-transition:all 0.3s ease;
+  
+  box-shadow: 6px 6px 10px -1px rgb(0, 0, 0);
 }
-.roig{
-    background-color: red;
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
+ 
+.boto:active {
+    margin-top: 1px;
+    -webkit-transform: scale(0.9);
+    -webkit-transition:all 0.3s ease;
+    outline: none;
+    box-shadow: -6px -6px 10px -1px rgb(0, 0, 0);
+  }
+.boto:focus { outline: none; }
+.red{
+    background-color: rgb(185, 1, 1);
+}
+.red:hover{
+    background-color: rgb(134, 0, 0);
+}
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    background-color: rgb(0, 0, 230);
+}
+.green{
+    background-color: green;
+}
+.green:hover{
+    background-color: rgb(0, 109, 0);
+}
+.white{
+    background-color: white;
+}
+.white:hover{
+    background-color: rgba(245, 245, 245, 0.801);
+}
+.red2{
+    background-color: rgb(255, 0, 0);
+}
+.red2:hover{
+    background-color: rgb(211, 4, 4);
+}
+.green2{
+    background-color: rgb(0, 146, 73);
+}
+.green2:hover{
+    background-color: rgb(0, 114, 57);
+}
+.blue2{
+    background-color: rgb(93, 57, 255);
+}
+.blue2:hover{
+    background-color: rgb(75, 47, 202);
+}
+.custom{
+    background-color: grey;
+    color:whitesmoke;
+    font-style: italic;
+    font-size: x-large;
+}
+.custom:hover{
+    background-color: rgb(95, 95, 95);
+    
+}
+.red3{
+    background-color: rgb(226, 83, 0);
+}
+.red3:hover{
+    background-color: rgb(177, 65, 0);
+}
+.green3{
+    background-color: rgb(0, 168, 154);
+}
+.green3:hover{
+    background-color: rgb(0, 134, 123) ;
+}
+.blue3{
+    background-color: blueviolet;
+}
+.blue3:hover{
+    background-color: rgb(102, 35, 165);
+}
+.red4{
+    background-color: orange;
+}
+.red4:hover{
+    background-color: rgb(199, 129, 0);
+}
+.green4{
+    background-color: rgb(0, 128, 111);
+}
+.green4:hover{
+    background-color: rgb(0, 85, 74);
+}
+.blue4{
+    background-color: purple;
+}
+.blue4:hover{
+    background-color: rgb(75, 0, 75);
+}
+.red5{
+    background-color: yellow;
+}
+.red5:hover{
+    background-color: rgb(182, 182, 2);
+}
+.green5{background-color: rgb(0, 99, 112);}
+.green5:hover{background-color: rgb(0, 83, 94);}
+.blue5{
+    background-color: rgb(255, 0, 157);
+}
+.blue5:hover{
+    background-color: rgb(197, 0, 122);
 }
